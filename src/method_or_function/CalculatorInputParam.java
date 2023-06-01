@@ -36,5 +36,6 @@ public class CalculatorInputParam {
         System.out.println("Subtraction of a and b is : =" + result);
         result = obj.multiplication(3,2);
         System.out.println("Multiplication of a and b is : =" + result);
+
     }
 }
