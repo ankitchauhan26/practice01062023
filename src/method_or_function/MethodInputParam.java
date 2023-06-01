@@ -22,5 +22,8 @@ public class MethodInputParam {
 
        int square  = obj.makeSquare(3);
         System.out.println(square);
+
+        int square1 = obj.makeSquare(5);
+        System.out.println(square1);
     }
 }
