@@ -11,6 +11,7 @@ public class StudentArrayList {
     public ArrayList<Student> createStudentList(){
         ArrayList <Student> studentArrayList =new ArrayList<>();
 
+
         // now we need to add information about students
 
         Student student1 = new Student(1,"Ankit","CS");

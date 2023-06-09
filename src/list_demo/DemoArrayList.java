@@ -17,9 +17,9 @@ public class DemoArrayList {
         course.add("CS");
         course.add("Java");
         course.add("Spring");
+        course.add("Spring Boot");       // course.add(12); we cannot add integer type data   or any other type of data
+        course.add("Cloud");
         course.add("Spring Boot");
-       // course.add(12); we cannot add integer type data   or any other type of data
-
         course.add("Cloud");
         return course;
     }
