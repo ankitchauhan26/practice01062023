@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Student {
     // Data Member
     int rollNo;
@@ -8,6 +10,18 @@ public class Student {
 
     //parameterized Constructor
 
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Student student)) return false;
+        return getRollNo() == student.getRollNo() && Objects.equals(getName(), student.getName()) && Objects.equals(getBranch(), student.getBranch());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getRollNo(), getName(), getBranch());
+    }
 
     public Student(int rollNo, String name, String branch) {
         this.rollNo = rollNo;
