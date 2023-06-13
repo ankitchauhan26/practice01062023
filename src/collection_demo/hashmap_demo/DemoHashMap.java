@@ -11,7 +11,7 @@ public class DemoHashMap {
 
         HashMap<Integer,String> course = new HashMap<>();
 
-        // adding value to Map
+        // adding value to Map put (key,value)
 
         course.put(1,"Java");
         course.put(2,"Spring");

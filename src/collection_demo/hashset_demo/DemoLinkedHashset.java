@@ -20,7 +20,8 @@ public class DemoLinkedHashset {
         studentLinkedHashSet.add(student3);
 
         for(Student var:studentLinkedHashSet){
-            System.out.println("Printing Student Info : " + var.getRollNo()+ " , " + var.getName()+", " + var.getBranch());
+            System.out.println("Printing Student Info : " + var.getRollNo()+ " , " + var.getName()+", "
+                    + var.getBranch());
         }
 
     }
